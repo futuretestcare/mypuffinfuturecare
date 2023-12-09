@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "673851034428",
+    "firebase_url": "https://future-care-9ba85-default-rtdb.firebaseio.com",
+    "project_id": "future-care-9ba85",
+    "storage_bucket": "future-care-9ba85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673851034428:android:d22f1f93defdd4a6deec39",
+        "android_client_info": {
+          "package_name": "com.mypuffinfuturecare.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_pGh-vKWE2RJHaAWF6IdlRhtyVNtqbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
