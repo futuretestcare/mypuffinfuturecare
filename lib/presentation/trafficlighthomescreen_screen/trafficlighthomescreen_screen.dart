@@ -35,12 +35,15 @@ class TrafficlighthomescreenScreen
                         EdgeInsets.symmetric(horizontal: 29.h, vertical: 27.v),
                     child: Column(mainAxisSize: MainAxisSize.min, children: [
                       SizedBox(height: 2.v),
-                      CustomImageView(
-                          imagePath: ImageConstant.imgTrafficlightpuffinlogo,
-                          height: 48.v,
-                          width: 167.h,
-                          alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(left: 2.h)),
+                      Padding(
+                        padding: EdgeInsets.only(right: 200.h),
+                        child: Image(
+                            image: AssetImage('assets/images/img_trafficlightpuffinlogo.png'),
+                            height: 48.v,
+                            width: 167.h,
+                            alignment: Alignment.topLeft,
+                            ),
+                      ),
                       SizedBox(height: 18.v),
                       Align(
                           alignment: Alignment.centerLeft,

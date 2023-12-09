@@ -31,8 +31,8 @@ class SplashScreen extends GetWidget<SplashController> {
                 child: Container(
                     width: double.maxFinite,
                     padding: EdgeInsets.symmetric(horizontal: 52.h),
-                    child: CustomImageView(
-                        imagePath: ImageConstant.imgPuffinlogoloading,
+                    child: Image(
+                        image: AssetImage('assets/images/img_puffinlogoloading.png'),
                         height: 176.v,
                         width: 286.h,
                         alignment: Alignment.center)))));

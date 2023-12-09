@@ -15,6 +15,7 @@ class HomescreenScreen extends GetWidget<HomescreenController> {
             body: Container(
                 width: mediaQueryData.size.width,
                 height: mediaQueryData.size.height,
+                
                 decoration: BoxDecoration(
                     color: appTheme.whiteA700,
                     boxShadow: [
@@ -24,22 +25,28 @@ class HomescreenScreen extends GetWidget<HomescreenController> {
                           blurRadius: 2.h,
                           offset: Offset(0, 3))
                     ],
+                    
                     image: DecorationImage(
                         image:
                             AssetImage(ImageConstant.imgTrafficlighthomescreen),
                         fit: BoxFit.cover)),
+                        
                 child: Container(
                     width: double.maxFinite,
                     padding:
                         EdgeInsets.symmetric(horizontal: 29.h, vertical: 27.v),
                     child: Column(mainAxisSize: MainAxisSize.min, children: [
+                      Padding(
+                        padding: EdgeInsets.only(right: 200.h),
+                        child: Image(
+                            image: AssetImage('assets/images/img_trafficlightpuffinlogo.png'),
+                            height: 48.v,
+                            width: 167.h,
+                            alignment: Alignment.topLeft,
+                            ),
+                      ),
                       SizedBox(height: 2.v),
-                      CustomImageView(
-                          imagePath: ImageConstant.imgTrafficlightpuffinlogo,
-                          height: 48.v,
-                          width: 167.h,
-                          alignment: Alignment.centerLeft,
-                          margin: EdgeInsets.only(left: 2.h)),
+                      
                       SizedBox(height: 18.v),
                       Align(
                           alignment: Alignment.centerLeft,
